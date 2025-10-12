@@ -1,0 +1,16 @@
+matplotlib==3.10.7
+numpy==2.2.6
+open3d==0.19.0
+opencv-python==4.12.0.88
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy==1.15.3
+tqdm==4.67.1
+# ===== External (must be installed via apt, not pip) =====
+# ffmpeg     -> for extracting frames from video
+# colmap     -> for sparse reconstruction and feature matching
+# (Install manually via system package manager)
+#
+# Example:
+#   sudo apt install ffmpeg
+#   sudo apt install colmap
